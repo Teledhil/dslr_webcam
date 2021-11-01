@@ -1,0 +1,7 @@
+[Unit]
+Description=DSLR webcam
+[Service]
+Type=simple
+TimeoutSec=0
+GuessMainPID=false
+ExecStart=/usr/local/bin/dslr-webcam.sh
